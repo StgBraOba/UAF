@@ -1,0 +1,863 @@
+[
+  {
+    "ContainingType": "UAF.Presentation.Controllers.AsignaturaController",
+    "Method": "ListaClase",
+    "RelativePath": "api/Asignatura",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.AsignaturaController",
+    "Method": "EditarAsignatura",
+    "RelativePath": "api/Asignatura/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dTo",
+        "Type": "UAF.Application.DTos.AsignaturaDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.AsignaturaController",
+    "Method": "ELiminarAsignatura",
+    "RelativePath": "api/Asignatura/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.AsignaturaController",
+    "Method": "NuevaClase",
+    "RelativePath": "api/Asignatura/NuevaClase",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UAF.Application.DTos.AsignaturaDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.AsistenciaController",
+    "Method": "ListaAsistencia",
+    "RelativePath": "api/Asistencia",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.AsistenciaController",
+    "Method": "EditarAsistencia",
+    "RelativePath": "api/Asistencia/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dTo",
+        "Type": "UAF.Application.DTos.AsistenciaDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.AsistenciaController",
+    "Method": "ELiminarAsistencia",
+    "RelativePath": "api/Asistencia/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.AsistenciaController",
+    "Method": "NuevaAsistencia",
+    "RelativePath": "api/Asistencia/NuevaAsistencia",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UAF.Application.DTos.AsistenciaDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UAF.Application.DTos.LogInDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.CalificacionController",
+    "Method": "ListaEstudiante",
+    "RelativePath": "api/Calificacion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.CalificacionController",
+    "Method": "EditarCalificacion",
+    "RelativePath": "api/Calificacion/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dTo",
+        "Type": "UAF.Application.DTos.CalificacionDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.CalificacionController",
+    "Method": "ELiminarCalificacion",
+    "RelativePath": "api/Calificacion/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.CalificacionController",
+    "Method": "NuevoCalificacion",
+    "RelativePath": "api/Calificacion/NuevaCalificacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UAF.Application.DTos.CalificacionDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.CarreraController",
+    "Method": "ListaCarrera",
+    "RelativePath": "api/Carrera",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.CarreraController",
+    "Method": "EditarCarrera",
+    "RelativePath": "api/Carrera/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dTo",
+        "Type": "UAF.Application.DTos.CarreraDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.CarreraController",
+    "Method": "ELiminarCarrera",
+    "RelativePath": "api/Carrera/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.CarreraController",
+    "Method": "NuevaCarrera",
+    "RelativePath": "api/Carrera/NuevaCarrera",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UAF.Application.DTos.CarreraDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.DocenteController",
+    "Method": "ListaDocente",
+    "RelativePath": "api/Docente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.DocenteController",
+    "Method": "EditarDocente",
+    "RelativePath": "api/Docente/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dTo",
+        "Type": "UAF.Application.DTos.DocenteDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.DocenteController",
+    "Method": "ELiminarDocente",
+    "RelativePath": "api/Docente/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.DocenteController",
+    "Method": "NuevaDocente",
+    "RelativePath": "api/Docente/NuevoDocente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UAF.Application.DTos.DocenteDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.EstudianteController",
+    "Method": "ListaEstudiante",
+    "RelativePath": "api/Estudiante",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.EstudianteController",
+    "Method": "EditarEstudiante",
+    "RelativePath": "api/Estudiante/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dTo",
+        "Type": "UAF.Application.DTos.EstudianteDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.EstudianteController",
+    "Method": "ELiminarEstudiante",
+    "RelativePath": "api/Estudiante/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.EstudianteController",
+    "Method": "NuevoEstudiante",
+    "RelativePath": "api/Estudiante/NuevoEstudiante",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UAF.Application.DTos.EstudianteDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.FacultadController",
+    "Method": "ListaFacultad",
+    "RelativePath": "api/Facultad",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.FacultadController",
+    "Method": "EditarFacultad",
+    "RelativePath": "api/Facultad/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dTo",
+        "Type": "UAF.Application.DTos.FacultadDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.FacultadController",
+    "Method": "EliminarFacultad",
+    "RelativePath": "api/Facultad/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.FacultadController",
+    "Method": "NuevaFacultad",
+    "RelativePath": "api/Facultad/NuevaFacultad",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UAF.Application.DTos.FacultadDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.GrupoController",
+    "Method": "ListaGrupo",
+    "RelativePath": "api/Grupo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.GrupoController",
+    "Method": "EditarCarrera",
+    "RelativePath": "api/Grupo/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dTo",
+        "Type": "UAF.Application.DTos.GrupoDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.GrupoController",
+    "Method": "ELiminarCarrera",
+    "RelativePath": "api/Grupo/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.GrupoController",
+    "Method": "NuevaGrupo",
+    "RelativePath": "api/Grupo/NuevoGrupo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UAF.Application.DTos.GrupoDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.InscripcionController",
+    "Method": "ListaInscripcion",
+    "RelativePath": "api/Inscripcion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.InscripcionController",
+    "Method": "EditarInscripcion",
+    "RelativePath": "api/Inscripcion/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dTo",
+        "Type": "UAF.Application.DTos.InscripcionDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.InscripcionController",
+    "Method": "ELiminarInscripcion",
+    "RelativePath": "api/Inscripcion/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.InscripcionController",
+    "Method": "NuevaInscripcion",
+    "RelativePath": "api/Inscripcion/NuevaInscripcion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UAF.Application.DTos.InscripcionDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.InscripcionDetalleController",
+    "Method": "ListarInscripcionDetalle",
+    "RelativePath": "api/InscripcionDetalle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.InscripcionDetalleController",
+    "Method": "EditarInscripcionDetalle",
+    "RelativePath": "api/InscripcionDetalle/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dTo",
+        "Type": "UAF.Application.DTos.InscripcionDetalleDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.InscripcionDetalleController",
+    "Method": "ELiminarInscripcionDetalle",
+    "RelativePath": "api/InscripcionDetalle/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.InscripcionDetalleController",
+    "Method": "NuevaInscripcionDetalle",
+    "RelativePath": "api/InscripcionDetalle/NuevaInscripcionDetalle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UAF.Application.DTos.InscripcionDetalleDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.ModalidadController",
+    "Method": "ListaFacultad",
+    "RelativePath": "api/Modalidad",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.ModalidadController",
+    "Method": "EditarModalidad",
+    "RelativePath": "api/Modalidad/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dTo",
+        "Type": "UAF.Application.DTos.ModalidadDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.ModalidadController",
+    "Method": "EliminarModalidad",
+    "RelativePath": "api/Modalidad/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.ModalidadController",
+    "Method": "NuevaModalidad",
+    "RelativePath": "api/Modalidad/NuevaModalidad",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UAF.Application.DTos.ModalidadDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.RolController",
+    "Method": "ListarRol",
+    "RelativePath": "api/Rol",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.RolController",
+    "Method": "EditarRol",
+    "RelativePath": "api/Rol/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dTo",
+        "Type": "UAF.Application.DTos.RolDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.RolController",
+    "Method": "EliminarRol",
+    "RelativePath": "api/Rol/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.RolController",
+    "Method": "NuevoRol",
+    "RelativePath": "api/Rol/NuevoRol",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UAF.Application.DTos.RolDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.UsuarioController",
+    "Method": "ListarUsuario",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.UsuarioController",
+    "Method": "UsuarioPorId",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.UsuarioController",
+    "Method": "EditarUsuario",
+    "RelativePath": "api/Usuario/Editar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dTo",
+        "Type": "UAF.Application.DTos.UsuarioDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.UsuarioController",
+    "Method": "EliminarUsuario",
+    "RelativePath": "api/Usuario/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.UsuarioController",
+    "Method": "NuevoUsuario",
+    "RelativePath": "api/Usuario/NuevoUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UAF.Application.DTos.UsuarioDTos",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UAF.Presentation.Controllers.UsuarioController",
+    "Method": "TestBcrypt",
+    "RelativePath": "api/Usuario/test-bcrypt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

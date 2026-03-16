@@ -1,0 +1,137 @@
+/* Contenedor principal */
+.usuarios-page {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f6fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Encabezado */
+.usuarios-header h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2f3640;
+  font-size: 28px;
+}
+
+/* Tabla */
+.usuarios-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.usuarios-table th, .usuarios-table td {
+  padding: 14px 20px;
+  text-align: left;
+}
+
+.usuarios-table th {
+  background-color: #273c75;
+  color: #f5f6fa;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.usuarios-table tbody tr {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.usuarios-table tbody tr:nth-child(even) {
+  background-color: #f1f2f6;
+}
+
+.usuarios-table tbody tr:hover {
+  background-color: #dcdde1;
+}
+
+/* Botones */
+.btn {
+  padding: 6px 12px;
+  margin: 0 3px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.btn.add-user{
+ background-color: green;
+  color: #fff;
+}
+.btn.edit {
+  background-color: #00a8ff;
+  color: #fff;
+}
+
+.btn.edit:hover {
+  background-color: #0097e6;
+}
+
+.btn.add-user:hover {
+ background-color:darkblue;
+  
+}
+.btn.delete {
+  background-color: #e84118;
+  color: #fff;
+}
+
+.btn.delete:hover {
+  background-color: #c23616;
+}
+
+/* Responsivo */
+@media screen and (max-width: 768px) {
+  .usuarios-page {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .usuarios-table th, .usuarios-table td {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+
+  .btn {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+}
+
+.topbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#1f2937;
+  padding:10px 20px;
+  color:white;
+}
+
+.menuhorizontal{
+  display:flex;
+  list-style:none;
+  gap:25px;
+}
+
+.menuhorizontal-item{
+  cursor:pointer;
+}
+
+.menuhorizontal-item:hover{
+  text-decoration:underline;
+}
+
+.usuarios-content{
+  padding:20px;
+}

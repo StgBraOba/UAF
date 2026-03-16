@@ -1,0 +1,17 @@
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\bin\Debug\net8.0\UAF.Infrastructure.deps.json
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\bin\Debug\net8.0\UAF.Infrastructure.dll
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\bin\Debug\net8.0\UAF.Infrastructure.pdb
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\bin\Debug\net8.0\UAF.Application.dll
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\bin\Debug\net8.0\UAF.Domain.dll
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\bin\Debug\net8.0\UAF.Application.pdb
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\bin\Debug\net8.0\UAF.Domain.pdb
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\obj\Debug\net8.0\UAF.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\obj\Debug\net8.0\UAF.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\obj\Debug\net8.0\UAF.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\obj\Debug\net8.0\UAF.Infrastructure.AssemblyInfo.cs
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\obj\Debug\net8.0\UAF.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\obj\Debug\net8.0\UAF.Infr.67F68F44.Up2Date
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\obj\Debug\net8.0\UAF.Infrastructure.dll
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\obj\Debug\net8.0\refint\UAF.Infrastructure.dll
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\obj\Debug\net8.0\UAF.Infrastructure.pdb
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Infrastructure\obj\Debug\net8.0\ref\UAF.Infrastructure.dll

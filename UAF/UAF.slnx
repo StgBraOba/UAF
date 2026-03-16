@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="UAF.Application/UAF.Application.csproj" />
+  <Project Path="UAF.Domain/UAF.Domain.csproj" />
+  <Project Path="UAF.Infrastructure/UAF.Infrastructure.csproj" />
+  <Project Path="UAF.Presentation/UAF.Presentation.csproj" />
+</Solution>

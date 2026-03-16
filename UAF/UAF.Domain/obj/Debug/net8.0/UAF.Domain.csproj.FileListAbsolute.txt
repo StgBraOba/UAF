@@ -1,0 +1,11 @@
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Domain\bin\Debug\net8.0\UAF.Domain.deps.json
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Domain\bin\Debug\net8.0\UAF.Domain.dll
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Domain\bin\Debug\net8.0\UAF.Domain.pdb
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Domain\obj\Debug\net8.0\UAF.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Domain\obj\Debug\net8.0\UAF.Domain.AssemblyInfoInputs.cache
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Domain\obj\Debug\net8.0\UAF.Domain.AssemblyInfo.cs
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Domain\obj\Debug\net8.0\UAF.Domain.csproj.CoreCompileInputs.cache
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Domain\obj\Debug\net8.0\UAF.Domain.dll
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Domain\obj\Debug\net8.0\refint\UAF.Domain.dll
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Domain\obj\Debug\net8.0\UAF.Domain.pdb
+C:\Users\BabuF\Desktop\Ingenieria Web\Proyecto UAF\UAF\UAF.Domain\obj\Debug\net8.0\ref\UAF.Domain.dll

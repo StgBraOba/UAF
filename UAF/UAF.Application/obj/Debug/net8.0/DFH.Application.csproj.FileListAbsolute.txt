@@ -1,0 +1,15 @@
+C:\Users\BabuF\Desktop\Programacion Web API\DataFlow Hub\DataFlow Hub\DFH.Application\bin\Debug\net8.0\DFH.Application.deps.json
+C:\Users\BabuF\Desktop\Programacion Web API\DataFlow Hub\DataFlow Hub\DFH.Application\bin\Debug\net8.0\DFH.Application.dll
+C:\Users\BabuF\Desktop\Programacion Web API\DataFlow Hub\DataFlow Hub\DFH.Application\bin\Debug\net8.0\DFH.Application.pdb
+C:\Users\BabuF\Desktop\Programacion Web API\DataFlow Hub\DataFlow Hub\DFH.Application\bin\Debug\net8.0\DFH.Domain.dll
+C:\Users\BabuF\Desktop\Programacion Web API\DataFlow Hub\DataFlow Hub\DFH.Application\bin\Debug\net8.0\DFH.Domain.pdb
+C:\Users\BabuF\Desktop\Programacion Web API\DataFlow Hub\DataFlow Hub\DFH.Application\obj\Debug\net8.0\DFH.Application.csproj.AssemblyReference.cache
+C:\Users\BabuF\Desktop\Programacion Web API\DataFlow Hub\DataFlow Hub\DFH.Application\obj\Debug\net8.0\DFH.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BabuF\Desktop\Programacion Web API\DataFlow Hub\DataFlow Hub\DFH.Application\obj\Debug\net8.0\DFH.Application.AssemblyInfoInputs.cache
+C:\Users\BabuF\Desktop\Programacion Web API\DataFlow Hub\DataFlow Hub\DFH.Application\obj\Debug\net8.0\DFH.Application.AssemblyInfo.cs
+C:\Users\BabuF\Desktop\Programacion Web API\DataFlow Hub\DataFlow Hub\DFH.Application\obj\Debug\net8.0\DFH.Application.csproj.CoreCompileInputs.cache
+C:\Users\BabuF\Desktop\Programacion Web API\DataFlow Hub\DataFlow Hub\DFH.Application\obj\Debug\net8.0\DFH.Appl.67EADECA.Up2Date
+C:\Users\BabuF\Desktop\Programacion Web API\DataFlow Hub\DataFlow Hub\DFH.Application\obj\Debug\net8.0\DFH.Application.dll
+C:\Users\BabuF\Desktop\Programacion Web API\DataFlow Hub\DataFlow Hub\DFH.Application\obj\Debug\net8.0\refint\DFH.Application.dll
+C:\Users\BabuF\Desktop\Programacion Web API\DataFlow Hub\DataFlow Hub\DFH.Application\obj\Debug\net8.0\DFH.Application.pdb
+C:\Users\BabuF\Desktop\Programacion Web API\DataFlow Hub\DataFlow Hub\DFH.Application\obj\Debug\net8.0\ref\DFH.Application.dll
