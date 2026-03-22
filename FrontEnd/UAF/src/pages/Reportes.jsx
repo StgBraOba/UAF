@@ -1,18 +1,11 @@
-
 import { useNavigate } from "react-router-dom";
 import "../Dashboard.css";
 import { useState, useEffect } from "react";
-import { ThemeContext } from "../Context/ThemeContext";
 import { jwtDecode } from "jwt-decode";
-import Navbar from "../Components/Navbar";
-  
 
 
-function Dashboard() {
-
-  
-
-
+function Reportes()
+{
   const [user, setUser] = useState("");
   const [role, setRole] = useState("");
   const navigate = useNavigate();
@@ -38,7 +31,6 @@ function Dashboard() {
   };
 
 
-
   return (
    <div className="dashboard">
   
@@ -47,12 +39,10 @@ function Dashboard() {
       <h2>UAF</h2>
     </div>
     <ul className="menu">
-      <li className="menu-item">Inicio</li>
-      
+      <li className="menu-item" onClick={() => navigate("/Dashboard")}>Inicio</li>
        {role === "Admin" &&(<li className="menu-item" onClick={() => navigate("/Reportes")}>Reportes</li>)}
-      <li className="menu-item">Nosotros</li>
       
-
+      <li className="menu-item">Nosotros</li>
     </ul>
   </aside>
 
@@ -61,7 +51,7 @@ function Dashboard() {
    
     <header className="header">
       <div className="welcome">
-        <h3>Bienvenido,<span className="role" id="role" >{role}</span></h3>
+        <h3>Dashboard Reportes<span className="role" id="role" >{role}</span></h3>
         
       </div>
       <button className="logout-btn" onClick={handleLogout}>Cerrar Sesión</button>
@@ -70,20 +60,20 @@ function Dashboard() {
   
      <section className="content">
       
-      {role === "Admin" &&(<div className="card" onClick={() => navigate("/ListarUsuarios")}>Usuario</div>)}
+      {role === "Admin" &&(<div className="card" onClick={() => navigate("/ReporteUsuarios")}>Usuario</div>)}
 
-      {role === "Admin" &&(<div className="card" onClick={() => navigate("/docentes")}>Docentes</div>)}
+      {role === "Admin" &&(<div className="card" onClick={() => navigate("")}>Docentes</div>)}
       
-      {role === "Admin" &&(<div className="card" onClick={() => navigate("/estudiantes")}>Estudiantes</div>)}
-      {role === "Admin" &&(<div className="card" onClick={() => navigate("/rol")}>Rol</div>)}
-      {role === "Admin" &&(<div className="card" onClick={() => navigate("/Facultad")}>Facultades</div>)}
-      {role === "Admin" &&(<div className="card" onClick={() => navigate("/Carreras")}>Carreras</div>)}
-      {role === "Admin" &&(<div className="card" onClick={() => navigate("/asignaturas")}>Asignaturas</div>)}
-      {role === "Admin" &&(<div className="card" onClick={() => navigate("/modalidad")}>Modalidad</div>)}
-      {role === "Admin" &&(<div className="card" onClick={() => navigate("/grupos")}>Grupo</div>)}
-      {role === "Admin"  &&(<div className="card" onClick={() => navigate("/asistencia")}>Asistencia</div>)}
-      {role === "Admin" &&(<div className="card" onClick={() => navigate("/calificaciones")}>Calificacion</div>)}
-      {role === "Admin" &&(<div className="card" onClick={() => navigate("/inscripciones")}>Inscripcion</div>)}
+      {role === "Admin" &&(<div className="card" onClick={() => navigate("/ReporteEstudiantes")}>Estudiantes</div>)}
+      {role === "Admin" &&(<div className="card" onClick={() => navigate("")}>Rol</div>)}
+      {role === "Admin" &&(<div className="card" onClick={() => navigate("")}>Facultades</div>)}
+      {role === "Admin" &&(<div className="card" onClick={() => navigate("")}>Carreras</div>)}
+      {role === "Admin" &&(<div className="card" onClick={() => navigate("")}>Asignaturas</div>)}
+      {role === "Admin" &&(<div className="card" onClick={() => navigate("")}>Modalidad</div>)}
+      {role === "Admin" &&(<div className="card" onClick={() => navigate("")}>Grupo</div>)}
+      {role === "Admin"  &&(<div className="card" onClick={() => navigate("")}>Asistencia</div>)}
+      {role === "Admin" &&(<div className="card" onClick={() => navigate("")}>Calificacion</div>)}
+      {role === "Admin" &&(<div className="card" onClick={() => navigate("")}>Inscripcion</div>)}
       
       {/* Botones para Docente */}
           {role === "Docente" && (
@@ -97,6 +87,6 @@ function Dashboard() {
   </div>
 </div>
   );
-}
 
-export default Dashboard;
+}
+export default Reportes;

@@ -1,0 +1,164 @@
+/* Contenedor principal */
+.Facultad-page {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #bac9bd; /* Fondo verde muy suave */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(214, 32, 32, 0.1);  
+}
+
+
+
+
+/* Encabezado */
+.Facultad-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.Facultad-header h2 {
+    text-align: center;
+    margin-bottom: 25px;
+  color: #2dac0e;
+  font-size: 28px;
+  margin-bottom: 0;
+}
+
+/* Tabla */
+.Facultad-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(24, 155, 35, 0.05);
+}
+
+.Facultad-table th, 
+.Facultad-table td {
+  padding: 14px 20px;
+  text-align: left;
+}
+
+.Facultad-table th {
+  background-color: #151777; /* Azul institucional */
+  color: #f5f6fa;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.Facultad-table tbody tr {
+  background-color: #fdfeff;
+  transition: background-color 0.3s ease;
+}
+
+.Facultad-table tbody tr:nth-child(even) {
+  background-color: #fbfcfd;
+}
+
+.Facultad-table tbody tr:hover {
+  background-color: #dcdde1;
+}
+
+/* Botones */
+.btn {
+  padding: 8px 15px;
+  margin: 0 3px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: 500;
+}
+
+/* Botón Crear/Agregar Facultad */
+.btn.add-Facultad {
+  background-color: #2f991d; /* Verde éxito */
+  color: #fff;
+}
+
+.btn.add-Facultad:hover {
+  background-color: #1e6312;
+  transform: translateY(-1px);
+}
+
+/* Botón Editar */
+.btn.edit {
+  background-color: #00a8ff;
+  color: #fff;
+}
+
+.btn.edit:hover {
+  background-color: #0097e6;
+}
+
+/* Botón Eliminar */
+.btn.delete {
+  background-color: #e84118;
+  color: #fff;
+}
+
+.btn.delete:hover {
+  background-color: #c23616;
+}
+
+/* Topbar y Menú (Globales) */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f2937;
+  padding: 10px 20px;
+  color: white;
+}
+
+.menuhorizontal {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.menuhorizontal-item {
+  cursor: pointer;
+}
+
+.menuhorizontal-item:hover {
+  text-decoration: underline;
+}
+
+.facultad-content {
+  padding: 20px;
+}
+
+/* Responsivo */
+@media screen and (max-width: 768px) {
+  .facultad-page {
+    margin: 20px;
+    padding: 15px;
+    
+  }
+
+  .facultad-table th, 
+  .facultad-table td {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+
+  .facultad-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
+
+
+
+
